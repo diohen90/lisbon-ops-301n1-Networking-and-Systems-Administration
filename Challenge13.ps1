@@ -25,4 +25,4 @@ New-ADUser -Name $displayName `
            -Enabled $true `
            -UserPrincipalName "$username@GlobeXpower.com" `
            -EmailAddress $email `
-           -Path "CN=Users,DC=GlobeXpower,DC=com"
+           -Path "CN=Users, DC=net2grid, DC=globexpower, DC=com"
